@@ -40,11 +40,11 @@ def generate_blueprint(prompt):
     print(f"Blueprint saved as {output_path}")
 
     # Convert PIL to OpenCV format for viewing
-    img_cv = cv2.cvtColor(np.array(img), cv2.COLOR_RGB2BGR)
+    '''img_cv = cv2.cvtColor(np.array(img), cv2.COLOR_RGB2BGR)
     cv2.imshow("Generated Blueprint", img_cv)
     print("Press any key in the image window to exit.")
     cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    cv2.destroyAllWindows()'''
 
 if __name__ == "__main__":
     prompt = input("Enter a description (e.g., bridge design): ")
