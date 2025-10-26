@@ -2,7 +2,7 @@
 
 A powerful application that converts spoken descriptions into engineering-style blueprints using speech recognition and AI image generation. Speak your ideas, and watch them transform into technical drawings!
 
-## 🌟 Features
+## Features
 
 - **Speech Recognition**: Captures and transcribes your voice in real-time
 - **Audio Signal Analysis**: Visualizes your speech through:
@@ -12,14 +12,14 @@ A powerful application that converts spoken descriptions into engineering-style 
 - **AI Blueprint Generation**: Transforms your spoken description into engineering-style blueprints using Stable Diffusion
 - **Interactive Web Interface**: User-friendly Streamlit dashboard
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8 or higher
 - A working microphone
 - Hugging Face account (free)
 - Internet connection
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone the Repository
 
@@ -33,7 +33,7 @@ cd Speech-To-Image
 pip install -r requirements.txt
 ```
 
-## 🔑 Setting Up Hugging Face Token
+## Setting Up Hugging Face Token
 
 ### Step 1: Create a Hugging Face Account
 
@@ -81,7 +81,7 @@ Replace `hf_your_token_here` with the actual token you copied from Hugging Face.
 - Add `.env` to your `.gitignore` file to prevent accidental uploads
 - The token should start with `hf_`
 
-## ▶️ Running the Application
+## Running the Application
 
 ### Start the Streamlit Server
 
@@ -101,7 +101,7 @@ The application will automatically open in your default web browser at `http://l
 
 Press `Ctrl + C` in the terminal to stop the Streamlit server.
 
-## 📖 How to Use
+## How to Use
 
 1. **Start the Application**: Run the Streamlit server as described above
 2. **Click "Tap to Speak"**: The application will start listening through your microphone
@@ -113,7 +113,7 @@ Press `Ctrl + C` in the terminal to stop the Streamlit server.
 5. **Wait for Blueprint**: The AI will generate an engineering-style blueprint
 6. **Download or View**: Your generated blueprint will be displayed on the screen
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### "HUGGINGFACE_TOKEN not found" Error
 - Verify that your `.env` file exists in the project root directory
@@ -130,25 +130,26 @@ Press `Ctrl + C` in the terminal to stop the Streamlit server.
 - Subsequent generations will be faster
 - Generation time depends on your internet speed and API response time
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## License
 
 This project is open source and available under the MIT License.
 
-## 👤 Author
+## Author
 
 **paratha14**
-- GitHub: [@paratha14](https://github.com/paratha14)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-- Hugging Face for providing the Stable Diffusion API
-- Google for the Speech Recognition API
-- The open-source community for the amazing libraries
+### Team Members
 
+This project was developed by:
+- **Pratham Mohan**
+- **Aayushmaan Saksena**
+- **Durgesh Yadav**
 ---
 
 **Note**: This application requires an active internet connection for both speech recognition (Google API) and image generation (Hugging Face API).
