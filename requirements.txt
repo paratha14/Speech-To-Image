@@ -1,0 +1,10 @@
+sounddevice
+numpy
+matplotlib
+scipy
+speechrecognition
+pyaudio
+opencv-python
+Pillow
+huggingface_hub
+python-dotenv
